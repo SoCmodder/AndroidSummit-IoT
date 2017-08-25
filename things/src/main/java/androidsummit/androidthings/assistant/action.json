@@ -1,0 +1,26 @@
+{
+	"actions": [
+      {
+        "description": "Default Welcome Intent",
+        "name": "MAIN",
+        "fulfillment": {
+          "conversationName": "androidSummit"
+        },
+        "intent": {
+          "name": "actions.intent.MAIN",
+          "trigger": {
+            "queryPatterns": [
+              "talk to derp"
+            ]
+          }
+        }
+      }
+    ],
+    "conversations": {
+      "androidSummit": {
+        "name": "androidsummit.androidthings.assistant",
+        "url": "<INSERT YOUR FULLFILLMENT URL HERE>"
+      }
+    }
+
+}
